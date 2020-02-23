@@ -114,7 +114,7 @@
   </li>
         <li class="menu-item menu-item-tags">
 
-    <a href="/tags/%E7%A7%91%E6%8A%80/%E8%BD%AF%E4%BB%B6" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
+    <a href="/tags/" rel="section"><i class="fa fa-fw fa-tags"></i>标签</a>
 
   </li>
         <li class="menu-item menu-item-categories">
@@ -152,6 +152,85 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/19/d06604e7/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="wky">
+      <meta itemprop="description" content="Blog">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Lemon-House">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/02/19/d06604e7/" class="post-title-link" itemprop="url">网站分享</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-02-19 20:47:42 / 修改时间：20:52:42" itemprop="dateCreated datePublished" datetime="2020-02-19T20:47:42+08:00">2020-02-19</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/" itemprop="url" rel="index">
+                    <span itemprop="name">经验分享</span>
+                  </a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="个人向网站整合"><a href="#个人向网站整合" class="headerlink" title="个人向网站整合"></a>个人向网站整合</h1><blockquote>
+<p>自己在闲逛的过程中发现的比较有趣、有用的网站或者一些软件，以此页面来记录下来，不定期更新，部分网站会补充相关教程。</p>
+</blockquote>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/19/d06604e7/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/16/b532032b/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -175,10 +254,16 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-02-16 21:18:58 / 修改时间：21:21:07" itemprop="dateCreated datePublished" datetime="2020-02-16T21:18:58+08:00">2020-02-16</time>
+              <time title="创建时间：2020-02-16 21:18:58" itemprop="dateCreated datePublished" datetime="2020-02-16T21:18:58+08:00">2020-02-16</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-18 17:21:26" itemprop="dateModified" datetime="2020-02-18T17:21:26+08:00">2020-02-18</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -212,50 +297,15 @@
 <p><strong><lable style="color:red">  注意事项</strong></p>
 <ul>
 <li>系统的最新版本，例如CentOS8等只能使用LNMP的稳定版</li>
-<li>网站根目录、PHP、MySQL等配置文件需要在官网文档中查询</li>
-</ul>
-<h2 id="不按套路的安装方法"><a href="#不按套路的安装方法" class="headerlink" title="不按套路的安装方法"></a>不按套路的安装方法</h2><blockquote>
-<p>此方法安装得不完全，追求稳定的同学还是使用一键包安装</p>
-</blockquote>
-<iframe src="//player.bilibili.com/player.html?aid=83751431&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<h3 id="安装Apache"><a href="#安装Apache" class="headerlink" title="安装Apache"></a>安装Apache</h3><pre><code>yum install httpd #安装Apache
-dnf install httpd #CentOS8通用
-systemctl start httpd  #启动服务
-systemctl enable httpd #设置为开机自启</code></pre><h3 id="安装MySQL-MariaDB"><a href="#安装MySQL-MariaDB" class="headerlink" title="安装MySQL/MariaDB"></a>安装MySQL/MariaDB</h3><pre><code>yum install mariadb mariadb-server #安装MariaDB(同MySQL)
-systemctl start mariadb #启动数据库服务
-systemctl enable mariadb #设为开机自启
-mysql_secure_installation #进行数据库的设置
-进入数据库的代码为
-mysql -u root -p</code></pre><h3 id="安装PHP7"><a href="#安装PHP7" class="headerlink" title="安装PHP7"></a>安装PHP7</h3><p>CentOS7下</p>
-<pre><code>方法一：
-yum install epel-release #安装
-yum install http://rpms.remirepo.net/enterprise/remi-release-7.rpm
-yum install yum-utils
-yum-config-manager --enable remi-php72
-yum update #更新
-yum install php72w #安装PHP
-yum install php72-php-fpm php72-php-gd php72-php-json php72-php-mbstring php72-php-mysqlnd php72-php-xml php72-php-xmlrpc php72-php-opcache #安装拓展模酷爱
-
-方法二：
-rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm   
-rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm    
-yum install php72w</code></pre><p>CentOS8下</p>
-<pre><code>dnf install epel-release
-dnf install https://rpms.remirepo.net/enterprise/remi-release-8.rpm
-remiPHP模块流的列表查看php
-dnf module list php
-启用php模块流
-dnf module enable php:remi-7.2
-安装PHP
-dnf install php </code></pre><p>测试PHP<br>在网站根目录下创建一个info.php的文件    </p>
-<pre><code>vi info.php
-输入代码
-&lt;?php
-phpinfo();
-?&gt;
-使用:wq保存并退出</code></pre><p>输入ip地址/info.php</p>
-
+<li>网站根目录、PHP、MySQL等配置文件需要在官网文档中查询
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/16/b532032b/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -297,10 +347,16 @@ phpinfo();
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-02-15 23:05:47 / 修改时间：23:09:34" itemprop="dateCreated datePublished" datetime="2020-02-15T23:05:47+08:00">2020-02-15</time>
+              <time title="创建时间：2020-02-15 23:05:47" itemprop="dateCreated datePublished" datetime="2020-02-15T23:05:47+08:00">2020-02-15</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-18 17:21:57" itemprop="dateModified" datetime="2020-02-18T17:21:57+08:00">2020-02-18</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="fa fa-folder-o"></i>
@@ -333,100 +389,15 @@ phpinfo();
 <p>官网地址需要特殊方法<br>蓝奏云链接:<a href="https://www.lanzous.com/i9248ng" target="_blank" rel="noopener">https://www.lanzous.com/i9248ng</a></p>
 <ul>
 <li>优点：<lable style="color:green">界面美观、功能全面、可安装插件、支持文件传输</li>
-<li>缺点：<lable style="color:red">无中文界面、文件传输体验不太好、对Z-moderm支持较差</li>
-</ul>
-<p><img src="https://mobaxterm.mobatek.net/img/slider/RDP.png" alt=""></p>
-<h2 id="Putty"><a href="#Putty" class="headerlink" title="Putty"></a><a href="https://putty.org/Putty.png" target="_blank" rel="noopener">Putty</a></h2><p><img src="https://cn.bing.com/th?id=OIP.3Vv0OxV5KyCtgWtmy0zbcwAAAA&pid=Api&rs=1" alt="图片来自bing"></p>
-<ul>
-<li>优点：<lable style="color:green">免费、体积使用流畅</li>
-<li>缺点：<lable style="color:red">对中文支持不全面、不可以传输文件、界面简陋</li>
-</ul>
-<h2 id="XShell"><a href="#XShell" class="headerlink" title="XShell"></a><a href="https://www.netsarang.com/zh/xshell/" target="_blank" rel="noopener">XShell</a></h2><p>也是收费软件，不过可以通过邮箱免费申请XShell和文件传输工具Xsftp</p>
-<ul>
-<li>优点：<lable style="color:green">界面好看、功能较全、支持多标签、有文件传输系统</li>
-<li>缺点： <lable style="color:red">使用稍微有些卡顿、商业软件，免费版有限制<br><img src="https://images.sftcdn.net/images/t_app-cover-l,f_auto/p/d5a248c0-9b23-11e6-baa5-00163ec9f5fa/593641444/xshell-2018-08-01_17-10-43.png" alt="图片来自bing"></li>
-</ul>
-<h2 id="FinalShell"><a href="#FinalShell" class="headerlink" title="FinalShell"></a><a href="http://www.hostbuf.com/t/988.html" target="_blank" rel="noopener">FinalShell</a></h2><p>国内作者设计的软件，<strong>官网的域名在国外</strong>，左侧可以看到服务器的CPU等信息，下侧可以传输文件，功能全面，体验也较好，分为免费版和捐赠版<br><img src="http://www.hostbuf.com/upload/image/20170928/1506605329395082804.png" alt=""></p>
-<ul>
-<li>优点：<lable style="color:green">使用界面友好美观、对海外服务器可以进行加速、对服务器信息的可视化掌握全面</li>
-<li>缺点：<lable style="color:red">长时间使用进程会达到100%占用(Java通病)</li>
-</ul>
-<p>对此软件我持保留意见</p>
-<ul>
-<li>最后附上一篇<a href="https://zhuanlan.zhihu.com/p/61013117" target="_blank" rel="noopener">知乎作者关于如何使用MobaXterm的文章</a></li>
-</ul>
-<hr>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
+<li>缺点：<lable style="color:red">无中文界面、文件传输体验不太好、对Z-moderm支持较差
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/02/15/42717/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
         
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/02/15/undefined/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="wky">
-      <meta itemprop="description" content="Blog">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Lemon-House">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/02/15/undefined/" class="post-title-link" itemprop="url">Hello World</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2020-02-15 14:00:14" itemprop="dateCreated datePublished" datetime="2020-02-15T14:00:14+08:00">2020-02-15</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
       
     </div>
 
@@ -514,12 +485,16 @@ phpinfo();
         </a>
       </div>
       <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
         <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">分类</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">2</span>
-        <span class="site-state-item-name">标签</span>
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
